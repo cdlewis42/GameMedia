@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css"; 
 
 
 const Nav = props => (
-    <div>
+    <div class = "navbar">
         <ul>
             <li>Home</li>
             <li>Profile</li>

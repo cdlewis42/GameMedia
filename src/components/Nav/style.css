@@ -1,0 +1,8 @@
+.navbar{
+    background-color: black;
+    color:#33cc00;
+}
+li{
+    display:inline-block;
+    margin-right:20px;
+}

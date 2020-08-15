@@ -1,0 +1,6 @@
+.profilePic{
+    height:200px;
+    width:200px;
+    object-fit:contain;
+    float:right;
+}

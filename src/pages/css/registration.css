@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+.form{
+    color:white !important;
+    width:50% !important;
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
