@@ -3,4 +3,14 @@
     width:200px;
     object-fit:contain;
     float:right;
+    margin:10px
+}
+.profilePicContainer{
+    color:white;
+    float:right;
+    border: 2px solid white;
+    border-radius:25px;
+}
+.name{
+    margin:10px;
 }

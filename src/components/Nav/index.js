@@ -5,9 +5,9 @@ import "./style.css";
 const Nav = props => (
     <div class = "navbar">
         <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Inbox</li>
+            <a href = "/"><li>Home</li></a>
+            <a href = "/profile"><li>Profile</li></a>
+            <a href = "/inbox"><li>Inbox</li></a>
         </ul>
     </div>
 )

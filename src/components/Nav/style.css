@@ -2,6 +2,12 @@
     background-color: black;
     color:#33cc00;
 }
+a{
+    color:#33cc00;
+}
+a:hover {
+    color:#53ff1a;
+}
 li{
     display:inline-block;
     margin-right:20px;

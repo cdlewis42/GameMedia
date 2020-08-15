@@ -4,6 +4,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import ProfilePic from "./components/ProfilePic";
 import Registration from "./pages/Registration";
 import Nav from "./components/Nav";
+import Inbox from "./pages/Inbox";
+import Profile from "./pages/Profile";
 class App extends Component{
 render(){
     return(
@@ -12,6 +14,8 @@ render(){
     <ProfilePic></ProfilePic>
     <Router>
     <Route exact path = "/" component = {Registration}/>
+    <Route exact path = "/inbox" component = {Inbox}/>
+    <Route exact path = "/profile" component = {Profile}/>
     </Router>
     </div>
     ) 
