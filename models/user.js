@@ -3,7 +3,9 @@ const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
     name: {type: String, required:true},
-    messageList: [Number]
+    messageList: [Number],
+    age: {type: String},
+    bio: {type: String}
 })
 
 const User = mongoose.model("User", userSchema)
