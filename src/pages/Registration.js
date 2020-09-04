@@ -1,5 +1,6 @@
 import React from "react";
 import Form from 'react-bootstrap/Form';
+import API from "../utils/API.js";
 import "./css/registration.css";
 class Registration extends React.Component{
   state = {
@@ -57,6 +58,7 @@ return(
     <Form.Control as="textarea" rows="3" name="bio" onChange={this.handleInputChange.bind(this)} />
   </Form.Group>
 </Form>
+<button type="submit" className="btn btn-primary btn-block" onClick={this.handleFormSubmit}> Create Account  </button>
 </div>
 )
 }
